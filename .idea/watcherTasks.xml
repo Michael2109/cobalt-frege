@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="-Xss1m -classpath $Classpath$ frege.compiler.Main -inline -make -d $ProjectFileDir$/target/frege -sp $ProjectFileDir$/src/main/frege $FilePath$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="hs" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Frege" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="C:/Program Files/Java/jdk1.8.0_101/bin/java.exe" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>

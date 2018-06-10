@@ -1,0 +1,40 @@
+group 'org.cobalt-lang'
+version '1.0-SNAPSHOT'
+
+apply plugin:'java'
+apply plugin: "org.frege-lang"
+
+repositories {
+    mavenCentral()
+}
+
+/*dependencies {
+    compile group: 'org.frege-lang', name: 'frege', version: '3.24.100.1', ext: 'pom'
+}*/
+
+dependencies {
+    compile 'org.frege-lang:frege:3.23.+'
+}
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "gradle.plugin.org.frege-lang:frege-gradle-plugin:0.8"
+
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['target/frege']
+        }
+        resources {
+            srcDirs = ['src/resources']
+        }
+    }
+}
